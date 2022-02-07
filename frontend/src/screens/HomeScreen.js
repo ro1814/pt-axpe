@@ -1,10 +1,13 @@
 import React from 'react';
+import MyGoogleMap from '../components/MyGoogleMap';
+import '../../src/App.css'
 
 const HomeScreen= () => {
     return(
-        <>
-        <h1>Hello from Homescreen</h1>
-        </>
+        <div className='main-wrapper'>
+        <MyGoogleMap />
+        </div>
+       
     )
 }
 
