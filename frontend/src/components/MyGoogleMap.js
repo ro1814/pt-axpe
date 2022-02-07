@@ -9,15 +9,13 @@ import Marker from "./Marker";
 
 import credentials from "../credentials";
 
-
-
-
 const Wrapper = styled.main`
   width: 100%;
   height: 100%;
 `;
 
 class MyGoogleMap extends Component {
+  
   state = {
     mapApiLoaded: false,
     mapInstance: null,
@@ -33,20 +31,18 @@ class MyGoogleMap extends Component {
     lng: null,
   };
 
-
-
   UNSAFE_componentWillMount() {
     this.setCurrentLocation();
   }
 
-  onMarkerInteraction = (childKey, childProps, mouse) => {
+  onMarkerInteraction = (mouse) => {
     this.setState({
       draggable: false,
       lat: mouse.lat,
       lng: mouse.lng,
     });
   };
-  onMarkerInteractionMouseUp = (childKey, childProps, mouse) => {
+  onMarkerInteractionMouseUp = () => {
     this.setState({ draggable: true });
     this._generateAddress();
   };
@@ -123,6 +119,7 @@ class MyGoogleMap extends Component {
     const { mapApiLoaded, mapInstance, mapApi } = this.state;
 
     return (
+
       <Wrapper>
         {mapApiLoaded && (
           <div>
@@ -133,16 +130,15 @@ class MyGoogleMap extends Component {
             />
           </div>
         )}
-        <GoogleMapReact
         
+        <GoogleMapReact
           bootstrapURLKeys={{
-              
+
             key: credentials.APIKEY,
-            
+
             libraries: ["places", "geometry"],
           }}
           center={this.state.center}
-          
           draggable={this.state.draggable}
           onChange={this._onChange}
           onChildMouseDown={this.onMarkerInteraction}

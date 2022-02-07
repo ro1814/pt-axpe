@@ -12,6 +12,7 @@ const Wrapper = styled.div`
 `;
 
 class AutoComplete extends Component {
+
     constructor(props) {
         super(props);
         this.clearSearchBox = this.clearSearchBox.bind(this);
@@ -61,8 +62,8 @@ class AutoComplete extends Component {
             <Wrapper>
                 <input
                     className="search-input"
-                    ref={(ref) => {
-                        this.searchInput = ref;
+                    ref={(data) => {
+                        this.searchInput = data;
                     }}
                     type="text"
                     onFocus={this.clearSearchBox}

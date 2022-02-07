@@ -18,7 +18,7 @@ npm install
 
 ![Screenshot](captura-credentials.jpg)
 
-4.Debemos escribir nuestra llave API que obtenemos mediante el enlace https://developers.google.com/maps/documentation/javascript/get-api-key. Para que la misma funcione se deben dejar dato confidenciales de pago.
+4. Debemos escribir nuestra llave API que obtenemos mediante el enlace https://developers.google.com/maps/documentation/javascript/get-api-key. Para que la misma funcione se deben dejar dato confidenciales de pago.
 
-5.Confirmamos que estemos situados en carpeta Desde el terminal o consola debemos escribir el comando npm start y el código desarrollado se desplegará en modo desarrollo a través del enlace http://localhost:3000/
+5. Confirmamos que estemos situados en carpeta Desde el terminal o consola debemos escribir el comando npm start y el código desarrollado se desplegará en modo desarrollo a través del enlace http://localhost:3000/
 
