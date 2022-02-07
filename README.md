@@ -8,11 +8,17 @@ La prueba técnica consta de dos partes:
 
 2. Uso de la Api de Google Maps. Para poder levantar este proyecto se tienen que seguir pasos fundamentales, ejecutando los siguientes comandos:
 
-A. -git clone https://github.com/ro1814/pt-axpe.git
-B. -cd pt-axpe
-C. -npm install
+2.1 -git clone https://github.com/ro1814/pt-axpe.git. En la carpeta que desees.
+2.2 -cd pt-axpe
+2.3 -cd frontend
+2.4 -npm install
 
 3. Una vez se instalan las dependencias del proyecto debemos crear en la carpeta frontend/src un archivo llamado credentials.js el cual escribiremos el siguiente código que se verá en la captura:
 
 
 ![Screenshot](captura-credentials.jpg)
+
+4.Debemos escribir nuestra llave API que obtenemos mediante el enlace https://developers.google.com/maps/documentation/javascript/get-api-key. Para que la misma funcione se deben dejar dato confidenciales de pago.
+
+5.Confirmamos que estemos situados en carpeta Desde el terminal o consola debemos escribir el comando npm start y el código desarrollado se desplegará en modo desarrollo a través del enlace http://localhost:3000/
+
