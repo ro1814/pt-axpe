@@ -1,4 +1,4 @@
-#Bienvenido a la prueba técnica de AXPE. 
+Bienvenido a la prueba técnica de AXPE. 
 
 Se trata de un proceso de selección el cual va dirigido a desarrolladores FrontEnd los cuales usen como lenguaje de programación JavaScript y su ecosistema. 
 
@@ -9,14 +9,14 @@ La prueba técnica consta de dos partes:
     En el siguiente código:
     ![Screenshot](codigo-a-solucionar.png)
 
-```
+
 Que problemas detectas en la operación y razona la respuesta.
     Respuesta:
     -El código antes visto a pesar de ser funcional carece de dinamismo y escalabilidad, esto debido a los condicionales if, else if, if que tiene. Asimsmo, al tratarse de servicios si se llegan a actualizar hay que editar muchísimos campos, con lo cual se puede recurrir a fallos mas facilmente. Al mismo tiempo, se pueden acceder a los métodos de forma pública, con lo que se pueden generar bugs al chocar con otros metodos/variables llamadas de la misma forma.
     
 Propón una solución alternativa (también en pseudocódigo del mismo estilo) que corrija los problemas de la operación getTotal de RegisteredUser que has detectado en la pregunta anterior. Realiza todos los cambios que consideres necesarios en cualquiera de las clases del modelo del enunciado.
 
-```
+
 ![Screenshot](solucion-operacion.png)
 
 2. Uso de la Api de Google Maps. Para poder levantar este proyecto se tienen que seguir pasos fundamentales, ejecutando los siguientes comandos:
