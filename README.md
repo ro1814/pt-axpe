@@ -12,9 +12,10 @@ En el siguiente código:
 
 
 Que problemas detectas en la operación y razona la respuesta.
-        Respuesta:
 
-            -El código antes visto a pesar de ser funcional carece de dinamismo y escalabilidad, esto debido a los condicionales if, else if, if que tiene. Asimismo, al tratarse de servicios (streaming/cobro) si se llegan a actualizar hay que editar muchísimos campos, con lo cual se puede recurrir a fallos mas facilmente. Al mismo tiempo, se pueden acceder a los métodos de forma pública, con lo que se pueden generar bugs al chocar con otros metodos/variables llamadas de la misma forma entre otros errores.
+Respuesta:
+
+-El código antes visto a pesar de ser funcional carece de dinamismo y escalabilidad, esto debido a los condicionales if, else if, if que tiene. Asimismo, al tratarse de servicios (streaming/cobro) si se llegan a actualizar hay que editar muchísimos campos, con lo cual se puede recurrir a fallos mas facilmente. Al mismo tiempo, se pueden acceder a los métodos de forma pública, con lo que se pueden generar bugs al chocar con otros metodos/variables llamadas de la misma forma entre otros errores.
     
 Propón una solución alternativa (también en pseudocódigo del mismo estilo) que corrija los problemas de la operación getTotal de RegisteredUser que has detectado en la pregunta anterior. Realiza todos los cambios que consideres necesarios en cualquiera de las clases del modelo del enunciado.
 
