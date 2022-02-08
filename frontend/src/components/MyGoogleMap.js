@@ -15,7 +15,6 @@ const Wrapper = styled.main`
 `;
 
 class MyGoogleMap extends Component {
-  
   state = {
     mapApiLoaded: false,
     mapInstance: null,
@@ -119,7 +118,6 @@ class MyGoogleMap extends Component {
     const { mapApiLoaded, mapInstance, mapApi } = this.state;
 
     return (
-
       <Wrapper>
         {mapApiLoaded && (
           <div>
@@ -130,10 +128,9 @@ class MyGoogleMap extends Component {
             />
           </div>
         )}
-        
+
         <GoogleMapReact
           bootstrapURLKeys={{
-
             key: credentials.APIKEY,
 
             libraries: ["places", "geometry"],
@@ -158,7 +155,7 @@ class MyGoogleMap extends Component {
 
         <div className="info-wrapper">
           <div className="map-details">
-            Latitude: <span>{this.state.lat}</span>, Longitude:{" "}
+            Latitude: <span>{this.state.lat}</span>, Longitude:
             <span>{this.state.lng}</span>
           </div>
           <div className="map-details">
