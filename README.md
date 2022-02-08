@@ -6,8 +6,9 @@ La prueba técnica consta de dos partes:
 
 1. Solución/mejora de código.
 
-    En el siguiente código:
-    ![Screenshot](codigo-a-solucionar.png)
+En el siguiente código:
+
+![Screenshot](codigo-a-solucionar.png)
 
 
 Que problemas detectas en la operación y razona la respuesta.
@@ -16,6 +17,7 @@ Que problemas detectas en la operación y razona la respuesta.
     
 Propón una solución alternativa (también en pseudocódigo del mismo estilo) que corrija los problemas de la operación getTotal de RegisteredUser que has detectado en la pregunta anterior. Realiza todos los cambios que consideres necesarios en cualquiera de las clases del modelo del enunciado.
 
+Solución:
 
 ![Screenshot](solucion-operacion.png)
 
